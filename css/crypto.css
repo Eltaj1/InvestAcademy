@@ -1,0 +1,170 @@
+.container {
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+    display: flex;
+}
+
+::-webkit-scrollbar {
+    width: 0;
+}
+
+.wrapper {
+    height: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+}
+
+.app {
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+    display: flex;
+}
+
+.app1 {
+    height: 30vh;
+    display: flex;
+    width: 40ch;
+    border: border-box;
+}
+
+.typing {
+    width: 40ch;
+    border: border-box;
+}
+
+.body {
+    font-family: "Regular 400", sans-serif;
+    background-color: #ffffff;
+}
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(23, 30, 63);
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #ffffff;
+    display: block;
+    transition: 0.3s;
+    font-size: 21px;
+    font-weight: 500;
+    white-space: nowrap;
+    opacity: 1;
+}
+
+.sidenav a:hover {
+    color: #4737ff;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {
+        padding-top: 15px;
+    }
+    .sidenav a {
+        font-size: 18px;
+    }
+}
+
+.div {
+    display: block;
+}
+
+:root {
+    --v-rhythm-header-1-space-phone: 56px;
+    --v-rhythm-header-1-space-tablet: 80px;
+    --v-rhythm-header-1-space-laptop: 100px;
+    --v-rhythm-header-1-space-desktop: 120px;
+    --v-rhythm-header-2-space-phone: 16px;
+    --v-rhythm-header-2-space-tablet: 24px;
+    --v-rhythm-header-2-space-laptop: 32px;
+    --v-rhythm-header-2-space-desktop: 40px;
+    --v-rhythm-header-3-space-phone: 16px;
+    --v-rhythm-header-3-space-tablet: 16px;
+    --v-rhythm-header-3-space-laptop: 24px;
+    --v-rhythm-header-3-space-desktop: 24px;
+    --v-rhythm-footer-1-space-phone: 56px;
+    --v-rhythm-footer-1-space-tablet: 80px;
+    --v-rhythm-footer-1-space-laptop: 100px;
+    --v-rhythm-footer-1-space-desktop: 120px;
+    --v-rhythm-footer-2-space-phone: 16px;
+    --v-rhythm-footer-2-space-tablet: 24px;
+    --v-rhythm-footer-2-space-laptop: 32px;
+    --v-rhythm-footer-2-space-desktop: 40px;
+    --v-rhythm-footer-3-space-phone: 16px;
+    --v-rhythm-footer-3-space-tablet: 16px;
+    --v-rhythm-footer-3-space-laptop: 24px;
+    --v-rhythm-footer-3-space-desktop: 24px;
+    --v-rhythm-spacing-1-phone: 80px;
+    --v-rhythm-spacing-1-tablet: 120px;
+    --v-rhythm-spacing-1-laptop: 160px;
+    --v-rhythm-spacing-1-desktop: 200px;
+    --v-rhythm-spacing-2-phone: 64px;
+    --v-rhythm-spacing-2-tablet: 88px;
+    --v-rhythm-spacing-2-laptop: 120px;
+    --v-rhythm-spacing-2-desktop: 160px;
+    --v-rhythm-spacing-3-phone: 48px;
+    --v-rhythm-spacing-3-tablet: 64px;
+    --v-rhythm-spacing-3-laptop: 88px;
+    --v-rhythm-spacing-3-desktop: 120px;
+    --v-rhythm-spacing-4-phone: 48px;
+    --v-rhythm-spacing-4-tablet: 48px;
+    --v-rhythm-spacing-4-laptop: 64px;
+    --v-rhythm-spacing-4-desktop: 80px;
+    --v-rhythm-spacing-5-phone: 32px;
+    --v-rhythm-spacing-5-tablet: 32px;
+    --v-rhythm-spacing-5-laptop: 40px;
+    --v-rhythm-spacing-5-desktop: 48px;
+    --v-rhythm-header-1-space: var(--v-rhythm-header-1-space-phone);
+    --v-rhythm-header-2-space: var(--v-rhythm-header-2-space-phone);
+    --v-rhythm-header-3-space: var(--v-rhythm-header-3-space-phone);
+    --v-rhythm-footer-1-space: var(--v-rhythm-footer-1-space-phone);
+    --v-rhythm-footer-2-space: var(--v-rhythm-footer-2-space-phone);
+    --v-rhythm-footer-3-space: var(--v-rhythm-footer-3-space-phone);
+    --v-rhythm-spacing-1: var(--v-rhythm-spacing-1-phone);
+    --v-rhythm-spacing-2: var(--v-rhythm-spacing-2-phone);
+    --v-rhythm-spacing-3: var(--v-rhythm-spacing-3-phone);
+    --v-rhythm-spacing-4: var(--v-rhythm-spacing-4-phone);
+    --v-rhythm-spacing-5: var(--v-rhythm-spacing-5-phone);
+}
+
+.container-kgHVAC31 {
+    --adaptive-mf-container-padding: 20px;
+    --adaptive-mf-container-max-width: 2360px;
+    overflow: hidden;
+    padding: 0 var(--adaptive-mf-container-padding);
+}
+
+.widgetContainer-42SwQm8L {
+    width: 100vw;
+}
+
+.container-42SwQm8L {
+    color: #131722;
+    display: grid;
+    grid-template-areas: "title" "example" "description" "button";
+    justify-items: center;
+    margin: var(--v-rhythm-spacing-1) auto;
+}
