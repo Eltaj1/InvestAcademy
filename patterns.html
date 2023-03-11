@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html>
+<title>InvestChat-паттерны</title>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/pattern.css">
+</head>
+<link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+
+<body>
+
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="index.html"><img src="img/InvestAcademy.svg" alt="InvestAcademy"></a>
+        <a></a>
+        <a href="academy.html"><i class="bx bx-home icon"> Главная</i></a>
+        <a></a>
+        <a href="about.html"><i class='bx bxs-show icon'> О нас</i></a>
+        <a></a>
+        <a href="termin.html"><i class="bx bxs-graduation icon"> Инфоурок</i></a>
+        <a></a>
+        <a href="terminalcrypto.html"><i class="bx bx-candles"> График</i></a>
+        <a></a>
+        <a href="chat.html"><i class='bx bx-envelope icon'> Чат</i></a>
+        <a></a>
+        <a href="news.html"><i class="bx bx-chart icon"> ТГ/БОТ</i></a>
+    </div>
+    <span style="font-size:30px;cursor:pointer" onclick="openNav()"><i class='bx bx-align-left toggle'></i></span>
+
+    <script>
+        function openNav() {
+            document.getElementById("mySidenav").style.width = "250px";
+        }
+
+        function closeNav() {
+            document.getElementById("mySidenav").style.width = "0";
+        }
+    </script>
+
+</body>
+
+
+<head>
+
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+
+
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+
+    <body>
+        <style>
+            .blue {
+                color: blue;
+            }
+        </style>
+
+        <!-- MAIN (Center website) -->
+        <div class="main">
+
+            <h2>Кратко про Правила и Паттерны</h2>
+            <hr>
+
+            <h3>Invest<span class="blue">Academy</span></h3>
+
+            <div id="myBtnContainer">
+                <button class="btn active" onclick="filterSelection('all')"> Все</button>
+                <button class="btn" onclick="filterSelection('nature')"> Паттерны</button>
+                <button class="btn" onclick="filterSelection('cars')"> Правила</button>
+            </div>
+
+            <!-- Portfolio Gallery Grid -->
+            <div class="row">
+                <div class="column nature">
+                    <div class="content">
+                        <img src="img/golovaup.png" alt="Mountains" style="max-width:100%">
+                        <h4>Голова и плечи #1</h4>
+                        <p>Даёт сигнал на покупку.</p>
+                    </div>
+                </div>
+                <div class="column nature">
+                    <div class="content">
+                        <img src="img/golova1.png" alt="Mountains" style="max-width:100%">
+                        <h4>Голова и плечи #2</h4>
+                        <p>Даёт сигнал на продажу.</p>
+                    </div>
+                </div>
+                <div class="column nature">
+                    <div class="content">
+                        <img src="img/bikup.png" alt="Lights" style="max-width:100%">
+                        <h4>Бычий флаг.</h4>
+                        <p>Даёт сигнал на покупку.</p>
+                    </div>
+                </div>
+                <div class="column nature">
+                    <div class="content">
+                        <img src="img/bearflag.png" alt="Lights" style="max-width:100%">
+                        <h4>Медвежий флаг.</h4>
+                        <p>Даёт сигнал на продажу.</p>
+                    </div>
+                </div>
+                <div class="column nature">
+                    <div class="content">
+                        <img src="img/dno.png" alt="Nature" style="width:100%">
+                        <h4>Двойное дно</h4>
+                        <p>Даёт сигнал на продажу.</p>
+                    </div>
+                </div>
+                <div class="column nature">
+                    <div class="content">
+                        <img src="img/2up.png" alt="Nature" style="width:100%">
+                        <h4>Двойная вершина</h4>
+                        <p>Даёт сигнал на покупку.</p>
+                    </div>
+                </div>
+                <div class="column nature">
+                    <div class="content">
+                        <img src="img/downklin.png" alt="Nature" style="width:100%">
+                        <h4>Нисходящий клин</h4>
+                        <p>Даёт сигнал на покупку.</p>
+                    </div>
+                </div>
+                <div class="column nature">
+                    <div class="content">
+                        <img src="img/klinup.png" alt="Nature" style="width:100%">
+                        <h4>Восходящий клин</h4>
+                        <p>Даёт сигнал на продажу.</p>
+                    </div>
+                </div>
+
+                <div class="column cars">
+                    <div class="content">
+                        <img src="img/strategy.png" alt="Car" style="width:100%">
+                        <h4>Правила #1</h4>
+                        <p>Статегия, тактика и техника.</p>
+                    </div>
+                </div>
+                <div class="column cars">
+                    <div class="content">
+                        <img src="img/yaponec.png" alt="Car" style="width:100%">
+                        <h4>Правила #2</h4>
+                        <p>Покупай дешевле, продавай дороже.</p>
+                    </div>
+                </div>
+                <div class="column cars">
+                    <div class="content">
+                        <img src="img/panic.png" alt="Car" style="width:100%">
+                        <h4>Правила #3</h4>
+                        <p>Не поддавайтесь всеобщей эйфории</p>
+                    </div>
+                </div>
+                <div class="column cars">
+                    <div class="content">
+                        <img src="img/posled.png" alt="Car" style="width:100%">
+                        <h4>Правила #4</h4>
+                        <p>Будьте последовательны в своих стратегиях!</p>
+                    </div>
+                </div>
+                <!-- END GRID -->
+            </div>
+
+            <!-- END MAIN -->
+        </div>
+        <script>
+            filterSelection("all")
+
+            function filterSelection(c) {
+                var x, i;
+                x = document.getElementsByClassName("column");
+                if (c == "all") c = "";
+                for (i = 0; i < x.length; i++) {
+                    w3RemoveClass(x[i], "show");
+                    if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
+                }
+            }
+
+            function w3AddClass(element, name) {
+                var i, arr1, arr2;
+                arr1 = element.className.split(" ");
+                arr2 = name.split(" ");
+                for (i = 0; i < arr2.length; i++) {
+                    if (arr1.indexOf(arr2[i]) == -1) {
+                        element.className += " " + arr2[i];
+                    }
+                }
+            }
+
+            function w3RemoveClass(element, name) {
+                var i, arr1, arr2;
+                arr1 = element.className.split(" ");
+                arr2 = name.split(" ");
+                for (i = 0; i < arr2.length; i++) {
+                    while (arr1.indexOf(arr2[i]) > -1) {
+                        arr1.splice(arr1.indexOf(arr2[i]), 1);
+                    }
+                }
+                element.className = arr1.join(" ");
+            }
+
+
+            // Add active class to the current button (highlight it)
+            var btnContainer = document.getElementById("myBtnContainer");
+            var btns = btnContainer.getElementsByClassName("btn");
+            for (var i = 0; i < btns.length; i++) {
+                btns[i].addEventListener("click", function() {
+                    var current = document.getElementsByClassName("active");
+                    current[0].className = current[0].className.replace(" active", "");
+                    this.className += " active";
+                });
+            }
+        </script>
+    </body>
+
+</html>
